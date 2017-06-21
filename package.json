@@ -1,0 +1,16 @@
+{
+  "name": "XSpriteEditor",
+  "version": "1.0.2",
+  "description": "XSpriteEditor",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/XSpriteEditor.git"
+  },
+  "devDependencies": {
+    "startserver": "*"
+  },
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}

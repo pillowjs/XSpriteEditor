@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>XSpriteEditor By xdf</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SpriteSheetEditor">
+    <meta name="author" content="xdf">
+    <link rel="stylesheet" href="src/stylesheet/base.css"/>
+    <link rel="stylesheet" href="src/stylesheet/index.css"/>
+</head>
+<body>
+    <a href="//github.com/xudafeng/XSpriteEditor"
+target="_blank"><img style="position: absolute;z-index: 999;top: 0px;right:
+0;border: 0;" src="http://gtms02.alicdn.com/tps/i2/T17kyAFydcXXax3xne-140-134.png" alt="Fork me on GitHub"></a>
+    <header id="header">
+        <ul>
+            <li id="name">XSpriteEditor</li>
+            <li id="help">Help</li>
+        </ul>
+    </header>
+    <section id="content">
+        <div id="scene">
+            <div class="title">scene <span>未添加图片，请点击下面空白区</span></div>
+            <div class="mask">
+                <canvas id="playground" width="600" height="600" title="点击选择所需区域"></canvas>
+                <div id="frames">
+                    <div id="timeLine">
+                        <div class=""></div>
+                    </div>
+                    <ul id="layers">
+                    </ul>
+                </div>
+                <div id="status">
+                    <span id="size"></span>
+                    <span id="position"></span>
+                    <span id="able"></span>
+                </div>
+            </div>
+        </div>
+        <input type="file" accept="image/*" id="input" style="display:none;"/>
+        <div id="panel">
+            <div class="title">preview</div>
+            <div class="mask">
+                <canvas id="preview" width="300" height="300" title="操作区域在下面"></canvas>
+                <div id="operate">
+                    <button id="up">up</button>
+                    <button id="down">down</button>
+                    <button id="left">left</button>
+                    <button id="right">right</button>
+                    <br/><br/>
+                    <button id="run">run</button>
+                    <button id="stop">stop</button>
+                    <button id="next">next</button>
+                    <button id="prev">prev</button>
+                    <button id="del">delete</button>
+                    <br/><br/>
+                    <button title="speed up" id="big">+</button>
+                    <button title="speed down" id="small">-</button>
+                </div>
+                <pre id="export" placeholder="export code"></pre>
+            </div>
+        </div>
+    </section>
+    <div style="display:none;">
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1642323'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1642323' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+</body>
+<script src="http://xudafeng.oss.aliyuncs.com/blog/aml.min.js" data-init="src/javascript/init.js"></script>
+</html>
